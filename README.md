@@ -1,16 +1,17 @@
 ## Hi, I'm Tuấn (Ho Anh Tuan)
 
 Final-year Electronics & Telecommunications student (High-Quality Program) at the
-University of Science, VNU-HCM. I work on **embedded firmware for STM32** and
-**digital IC design** from RTL to layout.
+University of Science, VNU-HCM. I work on **embedded firmware for STM32**,
+**digital IC design** from RTL to layout, and **wireless physical-layer simulation** (OFDM, 5G NR).
 
-**Looking for a 3–6 month internship** in Embedded Systems or Digital IC Design
-in Ho Chi Minh City.
+**Looking for a 3–6 month internship** in Embedded Systems, Digital IC Design or
+Wireless Communications, in Ho Chi Minh City or Hanoi.
 
 ### Projects
 
 | Project | What it is | Evidence |
 |---|---|---|
+| [ofdm-nr-sim](https://github.com/imtuaz/ofdm-nr-sim) | 5G NR-inspired OFDM link simulator in MATLAB: numerology, multipath/Doppler, DMRS channel estimation, Schmidl-Cox sync, 2x2 MIMO | BER validated against closed-form AWGN and Rayleigh results; result plots in the README |
 | [smart-door-lock-stm32](https://github.com/imtuaz/smart-door-lock-stm32) | STM32F103 door lock: RFID (RC522, SPI) + keypad PIN, servo latch, I2C LCD, ESP8266 email alerts, card list stored in flash | Course project, Microcontrollers, 2025; app logic unit-tested on PC |
 | [mpu6050-tilt](https://github.com/imtuaz/mpu6050-tilt) | MPU6050 over I2C, roll/pitch with a complementary filter at 100 Hz, hardware-independent driver | `make test`: 24 unit tests with a mocked I2C bus; not yet run on hardware |
 | [protocol-analyzer](https://github.com/imtuaz/protocol-analyzer) | Software logic analyzer in C99: decodes UART, SPI, I2C, CAN, flags protocol and timing errors, HTML/SVG report, reads PulseView CSV | `make test`: 117 unit tests under AddressSanitizer + UBSan |
@@ -21,6 +22,7 @@ in Ho Chi Minh City.
 - **Languages:** C, Verilog, Python, MATLAB
 - **Embedded:** STM32 (HAL, Standard Peripheral Library), UART, I2C, SPI, ESP8266/ESP32
 - **Digital IC:** OpenLane (Yosys, OpenROAD, Magic, Netgen), SKY130 PDK, Icarus Verilog, GTKWave/Surfer, KLayout; Synopsys VCS and Design Vision in coursework labs
+- **Wireless / DSP:** MATLAB link-level simulation: OFDM, channel estimation, synchronization, MIMO (Alamouti, ZF/MMSE/SIC, SVD precoding)
 - **Workflow:** Git, Make, Linux (WSL)
 
 ### Contact
